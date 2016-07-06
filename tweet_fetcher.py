@@ -1,8 +1,8 @@
-consumer_key =  "rmiMS8UynVwTHbM1KSlfyEMF6"
-consumer_secret =  "0Y58pO4DvlwS7xDXPS0IfFnuhh1EBZVYfmOll6o6TAvrePwY1V" 
+consumer_key =  ""
+consumer_secret =  "" 
 
-access_token = "2614503361-pdmpYpcl79p1oHw5qG6yiK9aspHmpEbbhxqr4qP"
-access_token_secret = "MurYNJJ3KVsLhfmRI82NeA1l61UzYDoYEiDLhlxScQly3"
+access_token = ""
+access_token_secret = ""
 
 import os
 import tweepy
