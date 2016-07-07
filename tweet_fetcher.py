@@ -20,12 +20,10 @@ db = client['twitter_db']
 collection = db['twitter_collection']
 
 api = tweepy.API(auth)
-c = 0
 for tweet in tweepy.Cursor(api.home_timeline).items(100):
     print tweet.text
     r = collection.insert(tweet)
     print r
-    c += 1
 
 print "end insert"
 tweets_iterator = collection.find()
